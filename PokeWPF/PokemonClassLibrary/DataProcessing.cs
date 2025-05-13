@@ -15,7 +15,7 @@ namespace PokemonClassLibrary
         private static DataSet? pokemonTrainerDataSet;
 
         // Deze moethode zorgt voor initialisatie van de pokemonTrainerDataSet
-        public static void InitializeDataBewerking()
+        public static void InitializeDataProcessing()
         {
             pokemonTrainerDataSet = new DataSet("TrainerDataSet");
 

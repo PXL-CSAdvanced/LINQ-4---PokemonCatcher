@@ -24,7 +24,7 @@ namespace PokeWPF
         public MainWindow()
         {
             InitializeComponent();
-            DataProcessing.InitializeDataBewerking();
+            DataProcessing.InitializeDataProcessing();
         }
 
         private void Login_Button_Click(object sender, RoutedEventArgs e)
